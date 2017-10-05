@@ -1,0 +1,48 @@
+2017/10/05 10:59:04 [error] 28638#0: *1 open() "/home/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080"
+2017/10/05 10:59:41 [error] 28638#0: *1 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 10:59:47 [error] 28638#0: *1 open() "/html/resources/pictures//01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /pictures/01.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 10:59:54 [error] 28638#0: *1 open() "/html/resources/pictures//01.gif" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /pictures/01.gif HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 11:20:39 [emerg] 31324#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:20:39 [emerg] 31324#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:20:39 [emerg] 31324#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:20:39 [emerg] 31324#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:20:39 [emerg] 31324#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:20:39 [emerg] 31324#0: still could not bind()
+2017/10/05 11:21:57 [emerg] 31486#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:21:57 [emerg] 31486#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:21:57 [emerg] 31486#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:21:57 [emerg] 31486#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:21:57 [emerg] 31486#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 11:21:57 [emerg] 31486#0: still could not bind()
+2017/10/05 11:30:54 [error] 32435#0: *1 open() "/html/resources/pictures//01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /pictures/01.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 11:30:57 [error] 32435#0: *1 open() "/html/resources/pictures//01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /pictures/01.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 11:34:30 [error] 32503#0: *1 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 11:41:39 [error] 32503#0: *3 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 11:41:40 [error] 32503#0: *3 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 11:41:59 [error] 32503#0: *4 open() "/home/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.58, server: 192.168.122.58, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.58:8080"
+2017/10/05 11:41:59 [error] 32503#0: *4 open() "/home/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.58, server: 192.168.122.58, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.58:8080"
+2017/10/05 11:42:05 [error] 32503#0: *4 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.58, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "192.168.122.58:8080", referrer: "http://192.168.122.58:8080/"
+2017/10/05 11:42:14 [error] 32503#0: *4 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.58, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "192.168.122.58:8080", referrer: "http://192.168.122.58:8080/"
+2017/10/05 11:42:16 [error] 32503#0: *4 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.58, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "192.168.122.58:8080", referrer: "http://192.168.122.58:8080/"
+2017/10/05 11:42:16 [error] 32503#0: *4 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.58, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "192.168.122.58:8080", referrer: "http://192.168.122.58:8080/"
+2017/10/05 11:44:38 [error] 32503#0: *5 access forbidden by rule, client: 192.168.122.58, server: 192.168.122.58, request: "GET /status HTTP/1.1", host: "192.168.122.58:8080", referrer: "http://192.168.122.58:8080/"
+2017/10/05 11:44:45 [error] 32503#0: *5 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.58, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "192.168.122.58:8080", referrer: "http://192.168.122.58:8080/"
+2017/10/05 11:45:47 [error] 32503#0: *6 open() "/home/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080"
+2017/10/05 11:45:53 [error] 32503#0: *6 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 11:47:06 [error] 628#0: *1 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 11:47:13 [error] 628#0: *3 open() "/home/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080"
+2017/10/05 11:47:21 [error] 628#0: *3 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 11:48:48 [error] 628#0: *5 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 11:48:49 [error] 628#0: *5 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 11:48:54 [error] 628#0: *5 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /admin.html HTTP/1.1", host: "localhost:8080"
+2017/10/05 11:48:56 [error] 628#0: *5 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /admin.html HTTP/1.1", host: "localhost:8080"
+2017/10/05 11:51:59 [error] 958#0: *1 open() "/home/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.58, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080"
+2017/10/05 11:52:07 [error] 958#0: *2 open() "/home/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.58, server: 192.168.122.58, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.58:8080"
+2017/10/05 11:52:16 [error] 958#0: *2 open() "/home/nginx/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.58, server: 192.168.122.58, request: "GET /admin HTTP/1.1", host: "192.168.122.58:8080", referrer: "http://192.168.122.58:8080/"
+2017/10/05 12:21:44 [emerg] 4119#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 12:21:44 [emerg] 4119#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 12:21:44 [emerg] 4119#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 12:21:44 [emerg] 4119#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 12:21:44 [emerg] 4119#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 12:21:44 [emerg] 4119#0: still could not bind()
+2017/10/05 12:23:08 [alert] 1269#0: unlink() "/home/nginx/nginx/logs/nginx.pid" failed (2: No such file or directory)
